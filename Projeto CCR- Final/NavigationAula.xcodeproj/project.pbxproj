@@ -19,7 +19,6 @@
 		155BE24A22806D5A00A0DC20 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 155BE24922806D5A00A0DC20 /* LaunchScreen.storyboard */; };
 		155BE24C2280791D00A0DC20 /* DetalhesEventosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 155BE24B2280791D00A0DC20 /* DetalhesEventosViewController.swift */; };
 		364607762308D9A10072A76C /* PerfilTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 364607752308D9A10072A76C /* PerfilTableViewCell.swift */; };
-		3646078223092A900072A76C /* Presenciais.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3646078123092A900072A76C /* Presenciais.storyboard */; };
 		3646078623092C320072A76C /* PresenciaisViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3646078523092C320072A76C /* PresenciaisViewController.swift */; };
 		36460788230931E40072A76C /* PresencialTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36460787230931E40072A76C /* PresencialTableViewCell.swift */; };
 		3646078E23097AB40072A76C /* DetailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3646078D23097AB40072A76C /* DetailTableViewCell.swift */; };
@@ -42,7 +41,6 @@
 		BAD6E2BB2308AE8900A70264 /* Perfil.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAD6E2BA2308AE8900A70264 /* Perfil.storyboard */; };
 		BAD6E2BD2308B57800A70264 /* MentorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAD6E2BC2308B57800A70264 /* MentorViewController.swift */; };
 		BAD6E2C12308C60000A70264 /* MentorTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAD6E2C02308C60000A70264 /* MentorTableViewCell.swift */; };
-		BAD6E2C32308E7BE00A70264 /* Assistir.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAD6E2C22308E7BE00A70264 /* Assistir.storyboard */; };
 		BAD6E2C52309202200A70264 /* AssistirTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAD6E2C42309202200A70264 /* AssistirTableViewCell.swift */; };
 		BAD6E2CB2309245700A70264 /* AssistirTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAD6E2CA2309245700A70264 /* AssistirTableViewController.swift */; };
 /* End PBXBuildFile section */
@@ -83,7 +81,6 @@
 		155BE24B2280791D00A0DC20 /* DetalhesEventosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetalhesEventosViewController.swift; sourceTree = "<group>"; };
 		2958BBF845AB92A121C784B8 /* Pods_NavigationAulaUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NavigationAulaUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		364607752308D9A10072A76C /* PerfilTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerfilTableViewCell.swift; sourceTree = "<group>"; };
-		3646078123092A900072A76C /* Presenciais.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Presenciais.storyboard; sourceTree = "<group>"; };
 		3646078523092C320072A76C /* PresenciaisViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresenciaisViewController.swift; sourceTree = "<group>"; };
 		36460787230931E40072A76C /* PresencialTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresencialTableViewCell.swift; sourceTree = "<group>"; };
 		3646078D23097AB40072A76C /* DetailTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailTableViewCell.swift; sourceTree = "<group>"; };
@@ -112,7 +109,6 @@
 		BAD6E2BA2308AE8900A70264 /* Perfil.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Perfil.storyboard; sourceTree = "<group>"; };
 		BAD6E2BC2308B57800A70264 /* MentorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MentorViewController.swift; sourceTree = "<group>"; };
 		BAD6E2C02308C60000A70264 /* MentorTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MentorTableViewCell.swift; sourceTree = "<group>"; };
-		BAD6E2C22308E7BE00A70264 /* Assistir.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Assistir.storyboard; sourceTree = "<group>"; };
 		BAD6E2C42309202200A70264 /* AssistirTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssistirTableViewCell.swift; sourceTree = "<group>"; };
 		BAD6E2CA2309245700A70264 /* AssistirTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssistirTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -178,9 +174,7 @@
 				3C715D0C22851F6D005713EA /* Controllers */,
 				3C715D0E2285210D005713EA /* Compra */,
 				155BE217228060D100A0DC20 /* Main.storyboard */,
-				3646078123092A900072A76C /* Presenciais.storyboard */,
 				BAD6E2BA2308AE8900A70264 /* Perfil.storyboard */,
-				BAD6E2C22308E7BE00A70264 /* Assistir.storyboard */,
 				155BE24922806D5A00A0DC20 /* LaunchScreen.storyboard */,
 				155BE21A228060D200A0DC20 /* Assets.xcassets */,
 				155BE21F228060D200A0DC20 /* Info.plist */,
@@ -391,8 +385,6 @@
 			files = (
 				155BE24A22806D5A00A0DC20 /* LaunchScreen.storyboard in Resources */,
 				3CEF49792283586800AAE249 /* GoogleService-Info.plist in Resources */,
-				3646078223092A900072A76C /* Presenciais.storyboard in Resources */,
-				BAD6E2C32308E7BE00A70264 /* Assistir.storyboard in Resources */,
 				BAD6E2BB2308AE8900A70264 /* Perfil.storyboard in Resources */,
 				155BE21B228060D200A0DC20 /* Assets.xcassets in Resources */,
 				155BE219228060D100A0DC20 /* Main.storyboard in Resources */,

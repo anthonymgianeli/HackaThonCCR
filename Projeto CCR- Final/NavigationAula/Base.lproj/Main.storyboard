@@ -12,7 +12,7 @@
         <!--Main-->
         <scene sceneID="soC-ma-EBW">
             <objects>
-                <viewController storyboardIdentifier="Main" title="Main" useStoryboardIdentifierAsRestorationIdentifier="YES" id="D8X-jK-g1Q" customClass="LoginViewController" customModule="NavigationAula" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="Main" title="Main" useStoryboardIdentifierAsRestorationIdentifier="YES" id="D8X-jK-g1Q" customClass="LoginViewController" customModule="PitStop_Saúde" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="1ua-SF-wCi">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -154,7 +154,7 @@
         <!--Cadastro View Controller-->
         <scene sceneID="00b-b4-Kkf">
             <objects>
-                <viewController id="IwR-xE-ljh" customClass="CadastroViewController" customModule="NavigationAula" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="IwR-xE-ljh" customClass="CadastroViewController" customModule="PitStop_Saúde" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="viV-HP-nCD">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -171,7 +171,7 @@
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Complete seu Cadastro" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="B4p-B1-U8Y">
                                                         <rect key="frame" x="0.0" y="0.0" width="354" height="59"/>
                                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="25"/>
-                                                        <color key="textColor" red="0.29803921570000003" green="0.1058823529" blue="0.59999999999999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                        <color key="textColor" name="Color"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="39" translatesAutoresizingMaskIntoConstraints="NO" id="JR2-sh-S4Z">
@@ -242,7 +242,7 @@
                                                     </stackView>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tMt-op-rGt">
                                                         <rect key="frame" x="0.0" y="408" width="354" height="59"/>
-                                                        <color key="backgroundColor" red="0.29803921570000003" green="0.1058823529" blue="0.59999999999999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                        <color key="backgroundColor" name="Color"/>
                                                         <constraints>
                                                             <constraint firstAttribute="width" secondItem="tMt-op-rGt" secondAttribute="height" multiplier="6" id="goj-kl-jPs"/>
                                                         </constraints>
@@ -310,7 +310,7 @@
         <!--Noticias-->
         <scene sceneID="Xlg-1r-ecE">
             <objects>
-                <viewController id="lk3-Xc-0QR" customClass="MainViewController" customModule="NavigationAula" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="lk3-Xc-0QR" customClass="MainViewController" customModule="PitStop_Saúde" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="bMv-2J-FaJ">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -344,7 +344,7 @@
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <color key="separatorColor" cocoaTouchSystemColor="scrollViewTexturedBackgroundColor"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="CellIdentifier" rowHeight="120" id="2h0-Or-9MU" userLabel="CellIndentifier" customClass="CellEventos" customModule="NavigationAula" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="CellIdentifier" rowHeight="120" id="2h0-Or-9MU" userLabel="CellIndentifier" customClass="CellEventos" customModule="PitStop_Saúde" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="414" height="120"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="2h0-Or-9MU" id="PUr-1C-vUY">
@@ -366,13 +366,13 @@
                                                 <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="1" translatesAutoresizingMaskIntoConstraints="NO" id="hzJ-aK-00s">
                                                     <rect key="frame" x="128" y="22" width="258" height="76.5"/>
                                                     <subviews>
-                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Covid-19: concessionária oferece consultas médicas gratuitas para caminhoneiros" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CLw-V8-gxZ">
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Covid-19: concessionária oferece consultas médicas gratuitas para caminhoneiros" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CLw-V8-gxZ">
                                                             <rect key="frame" x="0.0" y="0.0" width="228.5" height="61"/>
                                                             <fontDescription key="fontDescription" type="system" weight="medium" pointSize="17"/>
                                                             <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                             <nil key="highlightedColor"/>
                                                         </label>
-                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Por Danilo" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iAC-8E-wcc">
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Por Danilo" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iAC-8E-wcc">
                                                             <rect key="frame" x="0.0" y="62" width="58" height="14.5"/>
                                                             <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                                             <color key="textColor" cocoaTouchSystemColor="scrollViewTexturedBackgroundColor"/>
@@ -437,9 +437,9 @@
         <!--Minha Lista-->
         <scene sceneID="9vm-is-vbj">
             <objects>
-                <viewController id="dO1-sr-9hD" customClass="MentorViewController" customModule="NavigationAula" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="dO1-sr-9hD" customClass="MentorViewController" customModule="PitStop_Saúde" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="o0R-x9-Sgu">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="3Pm-e9-dtZ">
@@ -457,7 +457,7 @@
                                 <rect key="frame" x="0.0" y="155" width="414" height="687"/>
                                 <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="Curso" id="YeM-TE-Vqg" customClass="MentorTableViewCell" customModule="NavigationAula" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="Curso" id="YeM-TE-Vqg" customClass="MentorTableViewCell" customModule="PitStop_Saúde" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="55.5" width="414" height="100"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="YeM-TE-Vqg" id="5UY-V2-ipc">
@@ -551,7 +551,7 @@
         <!--Detalhes dos Eventos-->
         <scene sceneID="VB3-os-lZy">
             <objects>
-                <viewController id="HfS-Dq-obX" customClass="DetalhesEventosViewController" customModule="NavigationAula" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="HfS-Dq-obX" customClass="DetalhesEventosViewController" customModule="PitStop_Saúde" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="xBd-nV-TwP">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -701,8 +701,9 @@
                     </tabBarItem>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" largeTitles="YES" id="5YI-t4-zDq">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="108"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="116.5"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <color key="tintColor" name="Color"/>
                     </navigationBar>
                     <connections>
                         <segue destination="dO1-sr-9hD" kind="relationship" relationship="rootViewController" id="Z6Y-Vs-lu7"/>
@@ -725,7 +726,7 @@
         <!--Mapa-->
         <scene sceneID="tXm-wh-aDu">
             <objects>
-                <viewController id="ViW-8x-Odz" customClass="MapViewController" customModule="NavigationAula" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="ViW-8x-Odz" customClass="MapViewController" customModule="PitStop_Saúde" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="2Zh-J9-SaO">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -813,9 +814,9 @@
         <!--Saúde-->
         <scene sceneID="W1w-S5-Oa2">
             <objects>
-                <viewController id="V5s-Yp-BKB" customClass="CheersViewController" customModule="NavigationAula" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="V5s-Yp-BKB" customClass="CheersViewController" customModule="PitStop_Saúde" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="C0E-Ky-J3x">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="n94-HH-14e">
@@ -978,7 +979,7 @@ Beneficios:
                                                                     </label>
                                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0xy-hI-qmv">
                                                                         <rect key="frame" x="0.0" y="56" width="358" height="467"/>
-                                                                        <mutableString key="text">A ideia por trás do treinamento funcional é que cada exercício deve ser mais natural e transitar para a vida diária. Exercícios de treinamento funcional tendem a ativar mais músculos e, portanto, consomem mais energia.
+                                                                        <string key="text">A ideia por trás do treinamento funcional é que cada exercício deve ser mais natural e transitar para a vida diária. Exercícios de treinamento funcional tendem a ativar mais músculos e, portanto, consomem mais energia.
 A atividade se baseia nos movimentos naturais do corpo, como pular, correr, puxar, agachar, girar e empurrar. Por conta da quantidade infinita de exercícios e possibilidades, costuma ser mais motivador que a musculação.
 
 Benefícios:
@@ -988,7 +989,7 @@ Desenvolve a percepção dos movimentos;
 - Correção da má postura e desequilíbrios musculares;
 Aumento da estabilidade da região core (saúde da coluna vertebral);
 Alivia o estresse;
-- Melhora as estruturas afetadas por lesão no processo de reabilitação.</mutableString>
+- Melhora as estruturas afetadas por lesão no processo de reabilitação.</string>
                                                                         <fontDescription key="fontDescription" type="system" weight="light" pointSize="17"/>
                                                                         <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                         <nil key="highlightedColor"/>
@@ -1039,7 +1040,7 @@ Alivia o estresse;
                                                                 <nil key="textColor"/>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
-                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bd3-VI-MdK" customClass="RoundButton" customModule="NavigationAula" customModuleProvider="target">
+                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bd3-VI-MdK" customClass="RoundButton" customModule="PitStop_Saúde" customModuleProvider="target">
                                                                 <rect key="frame" x="0.0" y="70" width="100" height="34"/>
                                                                 <color key="backgroundColor" red="0.97254901959999995" green="0.29411764709999999" blue="0.28627450980000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                 <constraints>
@@ -1135,7 +1136,7 @@ Alivia o estresse;
                                                                     </label>
                                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cwj-Yw-u2U">
                                                                         <rect key="frame" x="0.0" y="41.5" width="358" height="365.5"/>
-                                                                        <mutableString key="text">Ingredientes
+                                                                        <string key="text">Ingredientes
 2 ovos
 ½ xícara (chá) de Creme de Leite
 1 colher (sopa) de Azeite
@@ -1145,7 +1146,7 @@ Alivia o estresse;
 1 colher (sopa) de Fermento Químico em Pó
 Instruções
 Em uma tigela misture todos os ingredientes (ovos,creme de leite, azeite, sal, farinha de soja, fibra de trigo e fermento)
-Unte forminhas ou Potinhos que possam ir ao forno e coloque a massa de forma que fique sobrando 1 dedo para que a massa possa crescer e leve para assar em forno pre-aquecido a 180°C por 20 minutos ou até dourar e aproveite!</mutableString>
+Unte forminhas ou Potinhos que possam ir ao forno e coloque a massa de forma que fique sobrando 1 dedo para que a massa possa crescer e leve para assar em forno pre-aquecido a 180°C por 20 minutos ou até dourar e aproveite!</string>
                                                                         <fontDescription key="fontDescription" type="system" weight="thin" pointSize="17"/>
                                                                         <nil key="textColor"/>
                                                                         <nil key="highlightedColor"/>
@@ -1179,7 +1180,7 @@ Unte forminhas ou Potinhos que possam ir ao forno e coloque a massa de forma que
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
-                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HfT-9I-NBl" customClass="RoundButton" customModule="NavigationAula" customModuleProvider="target">
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HfT-9I-NBl" customClass="RoundButton" customModule="PitStop_Saúde" customModuleProvider="target">
                                                         <rect key="frame" x="60" y="802" width="294" height="34"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="34" id="GqY-Kj-nNr"/>
@@ -1288,6 +1289,7 @@ Unte forminhas ou Potinhos que possam ir ao forno e coloque a massa de forma que
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" largeTitles="YES" id="uHE-RJ-EKc">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="108"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <color key="tintColor" name="Color"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
@@ -1303,7 +1305,7 @@ Unte forminhas ou Potinhos que possam ir ao forno e coloque a massa de forma que
             <objects>
                 <viewController id="XHT-DC-1tu" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="aqJ-l0-Nbu">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="udg-hI-l9I">
@@ -1545,6 +1547,7 @@ Unte forminhas ou Potinhos que possam ir ao forno e coloque a massa de forma que
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="dCe-Oz-WmN">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="56"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <color key="tintColor" name="Color"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
@@ -1574,10 +1577,10 @@ Unte forminhas ou Potinhos que possam ir ao forno e coloque a massa de forma que
         <image name="qrcode" catalog="system" width="128" height="114"/>
         <image name="sos" width="256" height="256"/>
         <namedColor name="Color">
-            <color red="0.10980392156862745" green="0.48627450980392156" blue="0.32941176470588235" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.10999999940395355" green="0.48600000143051147" blue="0.32899999618530273" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
         <namedColor name="Color-1">
-            <color red="0.89411764705882346" green="0.85882352941176465" blue="0.15294117647058825" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.89399999380111694" green="0.85900002717971802" blue="0.15299999713897705" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
     </resources>
 </document>
