@@ -1,0 +1,21 @@
+{
+  "images" : [
+    {
+      "filename" : "amores-desvalidos-rogerio-athayde-mercki-priscila-103388.jpg",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
